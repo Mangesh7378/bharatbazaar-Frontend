@@ -11,7 +11,7 @@ const [password,setPassword] = useState("");
 
 const loginUser = async () => {
 
-const response = await fetch("https://bharatbazaar.onrender.com/api/login",{
+const response = await fetch("https://bharatbazaar-1.onrender.com/api/login",{
 method:"POST",
 headers:{
 "Content-Type":"application/json"
