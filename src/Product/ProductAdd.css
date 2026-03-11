@@ -1,0 +1,80 @@
+.product-container{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+gap:25px;
+
+width:100%;
+max-width:1400px;
+margin:40px auto;   /* thoda space navbar ke niche */
+padding:30px;
+box-sizing:border-box;
+}
+
+.product-card{
+border:1px solid #ddd;
+background:white;
+padding:30px 15px 20px;
+text-align:center;
+border-radius:10px;
+transition:all 0.3s ease;
+min-height:300px;
+overflow:hidden;
+}
+
+.product-card:hover{
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+transform:translateY(-5px);
+}
+
+.product-card img{
+width:140px;
+height:140px;
+object-fit:contain;
+display:block;
+margin:20px auto 15px auto;   /* top margin remove */
+}
+
+.price{
+font-weight:bold;
+font-size:18px;
+margin-top:8px;
+}
+
+.discount{
+color:green;
+font-weight:600;
+margin-top:5px;
+}
+
+.product-buttons{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:10px;
+}
+
+.cart-btn{
+background:#2196f3;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.cart-btn:hover{
+background:#1976d2;
+}
+
+.buy-btn{
+background:#ff9800;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.buy-btn:hover{
+background:#f57c00;
+}

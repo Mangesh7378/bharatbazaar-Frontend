@@ -1,0 +1,56 @@
+body{
+margin:0;
+font-family:Arial;
+background: linear-gradient(120deg,#7b68ee,#00bfff);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.register-container{
+text-align:center;
+}
+
+.logo{
+color:white;
+margin-bottom:30px;
+}
+
+.register-card{
+background:rgba(255,255,255,0.2);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:15px;
+width:320px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.register-card h2{
+color:white;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:none;
+border-radius:6px;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#7b68ee;
+border:none;
+color:white;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+}
+
+.login-link{
+color:#fff;
+cursor:pointer;
+font-weight:bold;
+}
