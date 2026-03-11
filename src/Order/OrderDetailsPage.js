@@ -22,7 +22,7 @@ function OrderDetailsPage() {
 
     try{
 
-      const response = await fetch("https://bharatbazaar.onrender.com/api/orders",{
+      const response = await fetch("https://bharatbazaar-1.onrender.com/api/orders",{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
