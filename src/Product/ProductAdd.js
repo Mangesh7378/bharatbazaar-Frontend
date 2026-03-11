@@ -8,7 +8,7 @@ function ProductAdd({ addToCart, search }) {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("https://bharatbazaar.onrender.com/api/products")
+    fetch("https://bharatbazaar-1.onrender.com/api/products")
       .then(res => res.json())
       .then(data => setProducts(data));
   }, []);
