@@ -8,7 +8,7 @@ function OrdersPage() {
   // Fetch orders from backend
   useEffect(() => {
 
-    fetch("https://bharatbazaar.onrender.com/api/orders")
+    fetch("https://bharatbazaar-1.onrender.com/api/orders")
       .then(res => res.json())
       .then(data => setOrders(data))
       .catch(err => console.error(err));
@@ -23,7 +23,7 @@ function OrdersPage() {
 
     try{
 
-      const response = await fetch(`https://bharatbazaar.onrender.com/api/orders/${id}`,{
+      const response = await fetch(`https://bharatbazaar-1.onrender.com/api/orders/${id}`,{
         method:"DELETE"
       });
 
