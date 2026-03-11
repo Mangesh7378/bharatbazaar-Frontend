@@ -14,7 +14,7 @@ function RegisterPage() {
 
     try {
 
-      const response = await fetch("https://bharatbazaar.onrender.com/api/register", {
+      const response = await fetch("https://bharatbazaar-1.onrender.com/api/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
