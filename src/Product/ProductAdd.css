@@ -8,6 +8,8 @@ max-width:1400px;
 margin:40px auto;   /* thoda space navbar ke niche */
 padding:30px;
 box-sizing:border-box;
+align-items:start;
+align-content:start;
 }
 
 .product-card{
